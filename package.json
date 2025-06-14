@@ -1,0 +1,32 @@
+{
+  "name": "merge-label-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to merge a 4x6 shipping label PDF and a logo image into a printable 4x8 PDF for thermal printers like MUNBYN.",
+  "main": "index.js",
+  "bin": {
+    "merge-label": "./index.js"
+  },
+  "keywords": [
+    "shipping",
+    "cli",
+    "pdf",
+    "thermal-label",
+    "munbyn",
+    "pdf-lib"
+  ],
+  "author": "Elvis Morales",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.2.3"
+  }
+}
